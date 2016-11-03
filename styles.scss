@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i|Oswald:300,400');
+@import "headers";
+@import "colors";
+@import "links";
+@import "buttons";
+
+@mixin webfont() {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+}
+
+$stack-muli: 'Muli', sans-serif;
+$stack-oswald: 'Oswald', sans-serif;
+
+
+
+body{
+  @include webfont();
+  background-color: $pale-color;
+}
+
+div{
+    padding-top: 15px;
+}
+
+.container {
+  position: relative;
+  margin: 10px auto;
+  padding:10px;
+  max-width: 1060px;
+  height: auto;
+  background-color: $off-white;
+}
+
+ul{
+ // line-spacing: 0.75;
+padding-top: 0px;
+  
+  li{
+    list-style-type: none;
+  }
+}
+
+table{
+  margin: 0 px auto;
+  width: 100%;
+}
+
+th, td {
+   //padding: 5px;
+}
+
+  th{
+    text-align: center;
+    color: $off-white;
+    font-family: $stack-oswald;
+    font-weight: 300;
+    /*border-bottom: 2px solid $desaturate-color;*/
+    width: 50%;
+    background-color: $desaturate-color;
+    letter-spacing: 1px;
+    vertical-align: center;
+    padding: 5px;
+  }
+  td{
+    @include webfont();
+    text-align: left;
+    vertical-align: top;
+  }
+
+hr {
+    color: $accent;
+}
+
+.lefthead {
+    float: left;
+}
+
+.righthead {
+    float: right;
+    padding-top: 50px;
+    text-align: right;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.fresh {
+    clear: both;
+    font-weight: 400;
+}
+
+div{
+  //vertical-align: top;
+  h1{
+    padding-top: 0px;
+  }
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+}
+
+main{
+    div{
+        padding-top: 0px;
+        margin-top: 0px;
+        vertical-align: text-top;
+        vertical-align: top; 
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

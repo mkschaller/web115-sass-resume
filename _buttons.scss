@@ -1,0 +1,19 @@
+@import "colors";
+$stack-muli: 'Muli', sans-serif;
+$stack-oswald: 'Oswald', sans-serif;
+
+.btn {
+  background: $off-white;
+  background-image: -webkit-linear-gradient(top, $off-white, $pale-color);
+  background-image: -moz-linear-gradient(top, $off-white, $pale-color);
+  background-image: -ms-linear-gradient(top, $off-white, $pale-color);
+  background-image: -o-linear-gradient(top, $off-white, $pale-color);
+  background-image: linear-gradient(to bottom, $off-white, $pale-color);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  padding: 5px 25px 5px 25px;
+  text-decoration: none;
+  display:inline-block;
+    margin-top: 3px;
+}

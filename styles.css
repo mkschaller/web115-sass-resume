@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i|Oswald:300,400");
+/* line 5, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+h1 {
+  text-align: center;
+  color: #73264d;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px; }
+
+/* line 13, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+header h1 {
+  text-transform: uppercase;
+  font-size: 350%;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px; }
+
+/* line 22, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+main h1 {
+  text-align: center;
+  color: #73264d;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px; }
+
+/* line 29, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+main h2 {
+  text-align: left;
+  color: #73264d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  border-bottom: 5px solid #f2d9e6;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+
+/* line 40, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+main h3 {
+  text-align: center;
+  color: #ad8599;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px; }
+
+/* line 47, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+main h3 {
+  text-align: center;
+  color: #73264d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300; }
+
+/* line 56, G:/Fall 2016/web115/public_html/sass/_headers.scss */
+.lefthead h3 {
+  text-align: left; }
+
+/* line 6, G:/Fall 2016/web115/public_html/sass/_links.scss */
+a, a:active, a:hover, a:visited {
+  color: #cc6699;
+  text-decoration: none;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  text-align: center; }
+
+/* line 14, G:/Fall 2016/web115/public_html/sass/_links.scss */
+a:active, a:hover {
+  color: #73264d;
+  text-decoration: none;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  text-align: center; }
+
+/* line 5, G:/Fall 2016/web115/public_html/sass/_buttons.scss */
+.btn {
+  background: #fcf7ff;
+  background-image: -webkit-linear-gradient(top, #fcf7ff, #f2d9e6);
+  background-image: -moz-linear-gradient(top, #fcf7ff, #f2d9e6);
+  background-image: -ms-linear-gradient(top, #fcf7ff, #f2d9e6);
+  background-image: -o-linear-gradient(top, #fcf7ff, #f2d9e6);
+  background-image: linear-gradient(to bottom, #fcf7ff, #f2d9e6);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  padding: 5px 25px 5px 25px;
+  text-decoration: none;
+  margin: 5px; }
+
+/* line 17, G:/Fall 2016/web115/public_html/sass/styles.scss */
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  background-color: #f2d9e6; }
+
+/* line 22, G:/Fall 2016/web115/public_html/sass/styles.scss */
+div {
+  padding-top: 15px; }
+
+/* line 26, G:/Fall 2016/web115/public_html/sass/styles.scss */
+.container {
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 1060px;
+  height: auto;
+  background-color: #fcf7ff; }
+
+/* line 35, G:/Fall 2016/web115/public_html/sass/styles.scss */
+ul {
+  padding-top: 0px; }
+  /* line 39, G:/Fall 2016/web115/public_html/sass/styles.scss */
+  ul li {
+    list-style-type: none; }
+
+/* line 44, G:/Fall 2016/web115/public_html/sass/styles.scss */
+table {
+  margin: 0 px auto;
+  width: 100%; }
+
+/* line 53, G:/Fall 2016/web115/public_html/sass/styles.scss */
+th {
+  text-align: center;
+  color: #fcf7ff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  /*border-bottom: 2px solid $desaturate-color;*/
+  width: 50%;
+  background-color: #ad8599;
+  letter-spacing: 1px;
+  vertical-align: center;
+  padding: 5px; }
+
+/* line 65, G:/Fall 2016/web115/public_html/sass/styles.scss */
+td {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  vertical-align: top; }
+
+/* line 71, G:/Fall 2016/web115/public_html/sass/styles.scss */
+hr {
+  color: #66b3cc; }
+
+/* line 75, G:/Fall 2016/web115/public_html/sass/styles.scss */
+.lefthead {
+  float: left; }
+
+/* line 79, G:/Fall 2016/web115/public_html/sass/styles.scss */
+.righthead {
+  float: right;
+  padding-top: 50px;
+  text-align: right;
+  font-weight: 500;
+  vertical-align: top; }
+
+/* line 87, G:/Fall 2016/web115/public_html/sass/styles.scss */
+.fresh {
+  clear: both;
+  font-weight: 400; }
+
+/* line 94, G:/Fall 2016/web115/public_html/sass/styles.scss */
+div h1 {
+  padding-top: 0px; }
+
+/* line 99, G:/Fall 2016/web115/public_html/sass/styles.scss */
+nav {
+  text-align: center;
+  padding: 10px; }
+
+/* line 104, G:/Fall 2016/web115/public_html/sass/styles.scss */
+footer {
+  text-align: center;
+  padding: 5px; }
+
+/* line 110, G:/Fall 2016/web115/public_html/sass/styles.scss */
+main div {
+  padding-top: 0px;
+  margin-top: 0px;
+  vertical-align: text-top;
+  vertical-align: top; }
+
+/*# sourceMappingURL=styles.css.map */
