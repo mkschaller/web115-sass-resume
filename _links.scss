@@ -1,0 +1,21 @@
+@import "colors";
+$stack-muli: 'Muli', sans-serif;
+$stack-oswald: 'Oswald', sans-serif;
+
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+ 
+#{$a-tags} {
+  color: $color;
+  text-decoration: none;
+    font-family: $stack-muli;
+    font-weight: 400;
+    text-align: center;
+}
+#{$a-tags-hover} {
+  color:$dark-color;
+    text-decoration: none;
+    font-family: $stack-muli;
+    font-weight: 400;
+    text-align: center;
+}
